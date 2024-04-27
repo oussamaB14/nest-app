@@ -1,0 +1,12 @@
+GET http://localhost:3000/product
+
+###
+POST http://localhost:3000/product
+Content-Type:  application/json
+
+{
+  "name" :"Ipad 9000",
+  "price":"80",
+  "description": "Appel Ipad",
+  "inStock":"true"
+}
